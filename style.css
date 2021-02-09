@@ -1,0 +1,25 @@
+/* Initial reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* 1 rem = 10 px */
+html {
+  font-size: 62.5%;
+  font-family: 'DM Sans', sans-serif;
+}
+
+/* Variables */
+:root {
+  /* Colores */
+  --bitcoin-green: #2d882d;
+  --soft-green: #779d34;
+  --secondary-blue: #236a62;
+  --soft-blue: #0c887b;
+  --green-black: #303a30;
+  --blue-black: #252d2c;
+  --green-grey: #5f7041;
+  --just-white: #ffffff;
+}
