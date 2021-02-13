@@ -92,7 +92,7 @@ header img {
   width: 12px;
   height: 8px;
   margin-left: 14px;
-  background-image: url("./assets/icons/arrow_down.svg");
+  background-image: url("../assets/icons/arrow_down.svg");
   background-position: center;
   background-size: auto;
   background-repeat: no-repeat;
@@ -208,13 +208,13 @@ main {
   text-align: right;
 }
 .currency__table-container--right-column.down-trend span {
-  background: url("./assets/icons/trending-down.svg");
+  background: url("../assets/icons/trending-down.svg");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
 }
 .currency__table-container--right-column.up-trend span {
-  background: url("./assets/icons/trending-up.svg");
+  background: url("../assets/icons/trending-up.svg");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -336,7 +336,7 @@ main {
   top: -19px;
   width: 60px;
   height: 38px;
-  background: url("./assets/img/money.png");
+  background: url("../assets/img/money.png");
   background-position: center;
   background-size: auto;
   background-repeat: no-repeat;
@@ -404,25 +404,25 @@ main {
   height: 24px;
 }
 .cards-container__card span.clock {
-  background: url("./assets/icons/clock.svg");
+  background: url("../assets/icons/clock.svg");
   background-position: center;
   background-size: auto;
   background-repeat: none;
 }
 .cards-container__card span.eye {
-  background: url("./assets/icons/eye.svg");
+  background: url("../assets/icons/eye.svg");
   background-position: center;
   background-size: auto;
   background-repeat: none;
 }
 .cards-container__card span.coin {
-  background: url("./assets/icons/dollar-sign.svg");
+  background: url("../assets/icons/dollar-sign.svg");
   background-position: center;
   background-size: auto;
   background-repeat: none;
 }
 .cards-container__card span.check {
-  background: url("./assets/icons/check-circle.svg");
+  background: url("../assets/icons/check-circle.svg");
   background-position: center;
   background-size: auto;
   background-repeat: none;
@@ -438,7 +438,7 @@ main {
   height: 100%;
   text-align: center;
   padding-top: 64px;
-  background: url("./assets/img/bitcoinbaby.jpg");
+  background: url("../assets/img/bitcoinbaby.jpg");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -483,7 +483,9 @@ main {
   display: flex;
   align-items: center;
   height: 300px;
-  overflow-x: auto;
+  width: 90%;
+  margin: 0 auto;
+  overflow-x: scroll;
   scroll-snap-type: x proximity;
 }
 
@@ -502,10 +504,13 @@ main {
 }
 .main__plans__card.initial {
   margin-right: 30px;
+  margin-left: 10px;
 }
 .main__plans__card.center {
-  margin-left: 0;
   margin-right: 30px;
+}
+.main__plans__card.final {
+  margin-right: 10px;
 }
 .recommended-plan {
   position: absolute;
@@ -581,7 +586,7 @@ main {
   width: 24px;
   height: 24px;
   margin-left: 8px;
-  background-image: url("./assets/icons/arrow-right.svg");
+  background-image: url("../assets/icons/arrow-right.svg");
   background-position: center;
   background-size: auto;
   background-repeat: no-repeat;
@@ -594,7 +599,7 @@ main {
   color: var(--blue-black);
 }
 .main__plans__card.lateral-card .main__plans__button > span {
-  background-image: url("./assets/icons/arrow-right-blue.svg");
+  background-image: url("../assets/icons/arrow-right-blue.svg");
 }
 footer {
   display: flex;

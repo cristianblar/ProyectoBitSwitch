@@ -1,0 +1,22 @@
+body > main > section.main__exchange-container {
+    padding-bottom: 40px;
+}
+body > main > section.main__product-benefits > section {
+    max-width: 1000px;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.cards-container__card {
+    width: 45%;
+    height: 140px;
+}
+
+@media screen and (min-width: 960px){
+    #plans > section {
+        margin: 0;
+        display: flex;
+        justify-content: space-evenly;
+    }
+}

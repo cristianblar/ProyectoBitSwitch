@@ -1,0 +1,38 @@
+header {
+    height: 250px;
+}
+.main__exchange-container__text-container {
+    height: 100px;
+    margin-bottom: 36px;
+}
+body > main > section.main__exchange-container > section {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-evenly;
+}
+body > main > section.main__exchange-container > section > div {
+    margin: 0;
+    width: 40%;
+}
+body > main > section.main__hero > div {
+    background-position: 0% 20%;
+}
+#plans > section {
+    width: 100%;
+}
+
+@media screen and (min-width: 768px){
+    header {
+        height: 225px;
+    }
+    .main__exchange-container__text-container {
+        margin-bottom: 12px;
+    }
+}
+
+@media screen and (min-width: 816px){
+    #plans > section > article.main__plans__card.center > div > p.savings-info {
+        margin-bottom: 31px;
+    }
+}
