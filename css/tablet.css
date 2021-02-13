@@ -19,7 +19,13 @@ body > main > section.main__hero > div {
     background-position: 0% 20%;
 }
 #plans > section {
+    padding-top: 10px;
     width: 100%;
+    overflow-x: unset;
+    scroll-snap-type: unset;
+}
+#plans > section > article.main__plans__card.lateral-card.initial {
+    scroll-snap-align: unset;
 }
 
 @media screen and (min-width: 768px){
